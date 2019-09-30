@@ -29,22 +29,22 @@
         <title>Input Data Diri</title>
     </head>
     <body>
-    <div class="register-form">
+    <div class="form">
         <h1>Isi Biodata</h1>
         <form action="index.php"  method="post">
         <div class="name">
             <label>Nama : </label> 
-            <input type="text" name="nama" placeholder="Masukkan Nama">
+            <input type="text" name="nama">
             <br>
         </div>
         <div class="npm">
             <label>NPM : </label> 
-            <input type="text" name="npm" placeholder="Masukkan NPM">
+            <input type="text" name="npm">
             <br>
         </div>
         <div class="gender">
             <label>Jenis Kelamin : </label> 
-            <input type="text" name="jenis_kelamin" placeholder="Masukkan Jenis Kelamin">
+            <input type="text" name="jenis_kelamin">
             <br>
         </div>
         <button type="submit" class="button">Submit Data</button>
